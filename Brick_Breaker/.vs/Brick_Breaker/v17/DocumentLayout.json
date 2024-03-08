@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\brick_breaker\\brick_breaker\\assets\\00_scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\assets\\00_scripts\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\assets\\00_scripts\\bricks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\bricks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\assets\\00_scripts\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\bar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\brick_breaker\\brick_breaker\\assets\\00_scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B4ED01-8683-1524-5E35-CD8F84E9D1C1}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\00_Scripts\\GameManager.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Assets\\00_Scripts\\GameManager.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAAwCoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T03:49:54.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T03:49:54.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Bricks.cs",
               "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\Bricks.cs",
               "RelativeDocumentMoniker": "Assets\\00_Scripts\\Bricks.cs",
@@ -56,26 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Bar.cs",
               "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\Bar.cs",
               "RelativeDocumentMoniker": "Assets\\00_Scripts\\Bar.cs",
               "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\Bar.cs",
               "RelativeToolTip": "Assets\\00_Scripts\\Bar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T02:38:13.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\00_Scripts\\Ball.cs",
               "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Brick_Breaker\\Brick_Breaker\\Assets\\00_Scripts\\Ball.cs",
               "RelativeToolTip": "Assets\\00_Scripts\\Ball.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBIAAAAyAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAMBTwBIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T08:25:53.027Z",
               "EditorCaption": ""
