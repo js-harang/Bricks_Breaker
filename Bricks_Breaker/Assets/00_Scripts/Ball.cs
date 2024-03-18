@@ -43,6 +43,33 @@ public class Ball : MonoBehaviour
 
             if (collision.gameObject.CompareTag("Bricks"))
             {
+                string material = collision.gameObject.GetComponent<MeshRenderer>().material.name;
+
+                switch (material)
+                {
+                    case "1_Red (Instance)":
+                        gm.score += 10;
+                        break;
+                    case "2_Orange (Instance)":
+                        gm.score += 20;
+                        break;
+                    case "3_Yellow (Instance)":
+                        gm.score += 30;
+                        break;
+                    case "4_Green (Instance)":
+                        gm.score += 40;
+                        break;
+                    case "5_Blue (Instance)":
+                        gm.score += 50;
+                        break;
+                    case "6_Indigo (Instance)":
+                        gm.score += 60;
+                        break;
+                    case "7_Purple (Instance)":
+                        gm.score += 70;
+                        break;
+                }
+
                 Destroy(collision.gameObject);
             }
         }

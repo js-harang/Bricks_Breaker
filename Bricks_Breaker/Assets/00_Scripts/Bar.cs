@@ -36,7 +36,7 @@ public class Bar : MonoBehaviour
         else if (other.name == "Wall (4)")
             isPossibleRightMove = false;
         else
-            Debug.Log("trigger bug");
+            Debug.Log("bar trigger bug");
     }
 
     private void OnTriggerExit(Collider other)
