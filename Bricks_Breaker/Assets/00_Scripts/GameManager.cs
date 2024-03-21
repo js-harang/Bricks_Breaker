@@ -1,9 +1,12 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     Ball ball;
+    GameObject pausePopup;
+
     bool isPausePopup = false;
 
     public TMP_Text lifeTxt;
@@ -16,24 +19,31 @@ public class GameManager : MonoBehaviour
 
     [Space]
 
-    public GameObject pausePopup;
     public Material[] bricksColor = new Material[7];
 
     private void Start()
     {
         ball = GameObject.Find("Ball").GetComponent<Ball>();
+        pausePopup = GameObject.Find("Canvas").transform.Find("Pause").gameObject;
     }
 
-    public void Update()
+    private void Update()
     {
-        lifeTxt.text = $"Life : {life}\nScore : {score}";
+        if (SceneManager.GetActiveScene().name == "Mains")
+        {
+            lifeTxt.text = $"Life : {life}\nScore : {score}";
 
-        if (Input.GetKeyDown(KeyCode.Space))
-            GameStart();
+            if (Input.GetKeyDown(KeyCode.Space))
+                GameStart();
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Pause();
+            if (Input.GetKeyDown(KeyCode.Escape))
+                Pause();
+        }
+    }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
     }
 
     #region // 벽돌 색상 설정
@@ -56,6 +66,41 @@ public class GameManager : MonoBehaviour
 
     public void Pause()
     {
-        pausePopup.SetActive(!isPausePopup);
+        isPlaying = !isPlaying;
+        isPausePopup = !isPausePopup;
+        pausePopup.SetActive(isPausePopup);
+    }
+
+    public void Continue()
+    {
+        isPlaying = !isPlaying;
+        isPausePopup = !isPausePopup;
+        pausePopup.SetActive(isPausePopup);
+    }
+
+    public void StartBtn()
+    {
+
+    }
+
+    public void ScoreBtn()
+    {
+
+    }
+
+    public void EndGame()
+    {
+
+    }
+
+    public void Exit()
+    {
+        #region
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        #endregion
     }
 }
