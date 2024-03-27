@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\bricks_breaker\\bricks_breaker\\assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\bricks_breaker\\bricks_breaker\\assets\\01_scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\assets\\00_scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\bricks_breaker\\bricks_breaker\\assets\\01_scripts\\controller\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\controller\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\assets\\00_scripts\\barcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\barcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\bricks_breaker\\bricks_breaker\\assets\\00_scripts\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\00_scripts\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\bricks_breaker\\bricks_breaker\\assets\\01_scripts\\controller\\brickscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046BFFDA-0549-03E8-1805-9564A2A643A8}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\controller\\brickscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +26,47 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DontDestroy.cs",
-              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\DontDestroy.cs",
-              "RelativeDocumentMoniker": "Assets\\00_Scripts\\DontDestroy.cs",
-              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\DontDestroy.cs",
-              "RelativeToolTip": "Assets\\00_Scripts\\DontDestroy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "BricksController.cs",
+              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Controller\\BricksController.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Controller\\BricksController.cs",
+              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Controller\\BricksController.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Controller\\BricksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T08:34:40.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\00_Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\00_Scripts\\GameManager.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAwFEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T00:23:27.56Z",
+              "WhenOpened": "2024-03-27T03:24:02.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BallController.cs",
-              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\BallController.cs",
-              "RelativeDocumentMoniker": "Assets\\00_Scripts\\BallController.cs",
-              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\BallController.cs",
-              "RelativeToolTip": "Assets\\00_Scripts\\BallController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvzAAAAAQAAAA",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Controller\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Controller\\GameController.cs",
+              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Controller\\GameController.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Controller\\GameController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABIAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T04:46:54.243Z",
+              "WhenOpened": "2024-03-27T03:17:53.059Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BarController.cs",
-              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\BarController.cs",
-              "RelativeDocumentMoniker": "Assets\\00_Scripts\\BarController.cs",
-              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\00_Scripts\\BarController.cs",
-              "RelativeToolTip": "Assets\\00_Scripts\\BarController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAwBwAAABOAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Manager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Manager\\GameManager.cs",
+              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\Bricks_Breaker\\Bricks_Breaker\\Assets\\01_Scripts\\Manager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Manager\\GameManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T04:42:54.781Z",
+              "WhenOpened": "2024-03-27T03:17:51.626Z",
               "EditorCaption": ""
             }
           ]
