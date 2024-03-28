@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    GameManager gm;
+    private GameManager gm;
 
     public Vector3 movePos;
     float ballSpeed = 10f;
 
+    private void Start()
+    {
+        gm = GameManager.Instance;
+        gm.ball = this;
+    }
+
     private void Update()
     {
-        gm = GameObject.Find("GameController").GetComponent<GameManager>();
-
         transform.position += movePos * ballSpeed * Time.deltaTime;
     }
 

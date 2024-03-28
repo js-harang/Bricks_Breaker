@@ -1,11 +1,16 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public TMP_Text lifeTxt;
+    public int life = 3;
+    [HideInInspector] public int score = 0;
+
     public Material[] bricksColor = new Material[7];
 
-    public BallController ball = null;
-    public bool isPlay = false;
+    [HideInInspector] public BallController ball = null;
+    [HideInInspector] public bool isPlay = false;
 
     public static GameManager Instance
     {
@@ -15,7 +20,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public static GameManager instance;
+    private static GameManager instance;
 
     void Start()
     {

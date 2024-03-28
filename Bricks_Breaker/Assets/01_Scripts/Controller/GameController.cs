@@ -1,5 +1,5 @@
-using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -12,12 +12,18 @@ public class GameController : MonoBehaviour
         sm = ScenesManager.Instance;
     }
 
-    public void GameStartBtn()
+    private void Update()
     {
-        sm.ChangeScene("02_Main");
+        if (SceneManager.GetActiveScene().name == "02_Main")
+        {
+            //gm.lifeTxt.text = $"Life : {gm.life}\nScore : {gm.score}";
 
-        gm.ball = GameObject.Find("Ball").GetComponent<BallController>();
+            if (Input.GetKeyDown(KeyCode.Space))
+                GameStart();
+        }
     }
+
+    public void GameStartBtn() => sm.ChangeScene("02_Main");
 
     public void GameScoreBtn()
     {

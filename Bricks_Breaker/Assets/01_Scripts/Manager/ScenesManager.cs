@@ -7,13 +7,14 @@ using UnityEngine.UI;
 
 public class ScenesManager : MonoBehaviour
 {
-    public GameObject loading_UI;
-    public TMP_Text loadingText;
-    public CanvasGroup fadeImg;
+    [SerializeField] private CanvasGroup fadeImg;
+    [Space]
+    [SerializeField] private GameObject loading_UI;
+    [Space]
+    [SerializeField] private Slider loadingBar;
+    [SerializeField] private TMP_Text loadingText;
 
     float fadeDuration = 1.0f;
-
-    [SerializeField] Slider loadingBar;
 
     public static ScenesManager Instance
     {
